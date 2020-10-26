@@ -34,10 +34,10 @@
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.Longitud = new System.Windows.Forms.RadioButton();
-            this.Bonito = new System.Windows.Forms.RadioButton();
             this.altura = new System.Windows.Forms.RadioButton();
             this.label3 = new System.Windows.Forms.Label();
             this.alturaBox = new System.Windows.Forms.TextBox();
+            this.Bonito = new System.Windows.Forms.RadioButton();
             this.button3 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -66,7 +66,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(149, 31);
             this.button1.TabIndex = 4;
-            this.button1.Text = "conectar";
+            this.button1.Text = "CONECtAR";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -109,17 +109,6 @@
             this.Longitud.Text = "Dime la longitud de mi nombre";
             this.Longitud.UseVisualStyleBackColor = true;
             // 
-            // Bonito
-            // 
-            this.Bonito.AutoSize = true;
-            this.Bonito.Location = new System.Drawing.Point(116, 68);
-            this.Bonito.Name = "Bonito";
-            this.Bonito.Size = new System.Drawing.Size(156, 17);
-            this.Bonito.TabIndex = 8;
-            this.Bonito.TabStop = true;
-            this.Bonito.Text = "Dime si mi nombre es bonito";
-            this.Bonito.UseVisualStyleBackColor = true;
-            // 
             // altura
             // 
             this.altura.AutoSize = true;
@@ -146,6 +135,17 @@
             this.alturaBox.Name = "alturaBox";
             this.alturaBox.Size = new System.Drawing.Size(62, 20);
             this.alturaBox.TabIndex = 9;
+            // 
+            // Bonito
+            // 
+            this.Bonito.AutoSize = true;
+            this.Bonito.Location = new System.Drawing.Point(116, 68);
+            this.Bonito.Name = "Bonito";
+            this.Bonito.Size = new System.Drawing.Size(156, 17);
+            this.Bonito.TabIndex = 8;
+            this.Bonito.TabStop = true;
+            this.Bonito.Text = "Dime si mi nombre es bonito";
+            this.Bonito.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
